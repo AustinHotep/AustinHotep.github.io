@@ -1,9 +1,64 @@
 <!DOCTYPE html>
-cd username.github.io
+<html>
+    <head>
+    <title>Pinball Player's Hub</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="pinballGallery.js" defer></script>
+    </head>
 
-echo "Hello World" > index.html
-git add --all
+<body>
+    <header>
+    <h1>Pinball Player's Hub</h1>
+    </header>
 
-git commit -m "Initial commit"
+    <nav>
+        <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="beginner.html">Beginner's Guide to Pinball</a></li>
+         <li><a href="advanced.html">Advanced Strategies and Techniques</a></li>
+         <li><a href="directory.html">Machine Directory</a></li>
+         <li><a href="events.html">Community and Events</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h1>About Us </h1>
+        <p>
+        The Pinball Players Hub website serves as a comprehensive resource for both novice and seasoned pinball enthusiasts. 
+        We aim to educate, engage, and foster a vibrant community in the state of Maryland. 
+        We also seek to share knowledge surrounding the intricate world of pinball machines and the vibrant industry that supports them. 
+        This site will offer a deep dive into everything from the basics of pinball gameplay to advanced strategies and the specific quirks of different machines' rulesets. 
+        This comprehensive approach will ensure that anyone, regardless of their experience level, can find valuable information to enhance their understanding and appreciation of pinball. 
+        Welcome! Enjoy our website!
+        </p>
 
-git push -u origin main
+        <img src= https://classicplayfields.com/wp-content/uploads/2019/04/BK2000-Backglass-1.jpg>
+
+        <h3>Contact Us</h3>
+        <p>All messages will be sent to pinballplayershub@gmail.com</p>
+        <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+        </form>
+
+        <h3>Updates</h3>
+        <p> - Site Created 4/10/2023</p>
+        <p> - Home page worked on 4/17/2023</p>
+        <p> - Beginner's page worked on 4/17/2023</p>
+        <p> - Site finished on 4/31/2023</p>
+        <p> - Site officially published on 5/1/2023</p>
+    </section>
+
+    <div id = "footer">
+        <br><hr><br>
+        Created by Austin Mosmiller and copyright &copy; thereof. <br> 
+        Last updated 4/31/2024 <br><br>
+    </div>
+</body>
+
+</html>

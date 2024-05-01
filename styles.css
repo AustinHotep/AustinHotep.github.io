@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: white;
+}
+
+header {
+    background-color:yellow;
+    color:black;
+    padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+section {
+	h1 {
+		color:black;
+        outline: double 5px blue;
+        background-color: black; 
+        color: yellow;
+	}
+
+    max-width: 800px;
+	color:black;
+	background-color: white;
+	text-align: left;
+	img {
+		height: 500px;
+		width: 800px;
+		border: 13px solid #000000;
+	}
+}
+
+section {
+	h3 {
+		color:black;
+        outline: double 5px blue;
+        background-color: black; 
+        color: red;
+	}
+
+    max-width: 800px;
+	color:black;
+	background-color: white;
+	text-align: left;
+	img {
+		height: 500px;
+		width: 800px;
+		border: 13px solid #000000;
+	}
+}
+
+table {
+	width: 800px;
+	height: 250px;
+	color: black;
+	background-color: white;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid white;
+        }
+        th {
+            background-color: white;
+        }
+}
+
+#footer {
+	hr {  
+            height: 4px;  
+            background-color: white;  
+            border: none;  
+        }
+    background-color: black;
+    color: white;
+    padding: 10px;
+	text-align: center;
+}
