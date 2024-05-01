@@ -36,7 +36,7 @@ li a:hover {
 }
 
 section {
-	h1 {
+	h2 {
 		color:black;
         outline: double 5px blue;
         background-color: black; 
